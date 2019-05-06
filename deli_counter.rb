@@ -21,5 +21,5 @@ end
 
 def now_serving(current_line)
   msg = ""
-  current_line.size == 0 ? msg = 
+  current_line.size == 0 ? msg = "There is nobody waiting to be served!" : 
 end
