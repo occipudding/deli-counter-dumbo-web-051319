@@ -20,6 +20,6 @@ def take_a_number(current_line, new_name)
 end
 
 def now_serving(current_line)
-  msg = ""
-  current_line.size == 0 ? msg = "There is nobody waiting to be served!" : 
+  msg = current_line.size == 0 ? "There is nobody waiting to be served!" : "Currently serving #{current_line.shift}."
+  puts msg
 end
