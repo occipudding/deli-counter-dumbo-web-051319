@@ -1,5 +1,7 @@
 def line(names)
-  names.size == 0 ? "The line is currently empty." : names.each { |name|
-    
+  msg = "The line is currently: "
+  names.size == 0 ? msg = "The line is currently empty." : names.each { |name|
+    msg += name
   }
+  msg
 end
