@@ -13,3 +13,5 @@ def line(names)
   end
   puts msg
 end
+
+def take_a_number
