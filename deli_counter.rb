@@ -8,5 +8,5 @@ def line(names)
     msg += "#{names.index(name) + 1}. #{name}"
     }
   end
-  msg
+  puts msg
 end
