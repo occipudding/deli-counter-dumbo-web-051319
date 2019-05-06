@@ -14,6 +14,6 @@ def line(names)
   puts msg
 end
 
-def take_a_number
+def take_a_number(current_line, new_name)
   
 end
