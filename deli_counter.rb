@@ -15,5 +15,6 @@ def line(names)
 end
 
 def take_a_number(current_line, new_name)
+  current_line << new_name
   
 end
